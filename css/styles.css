@@ -193,7 +193,7 @@ ul li.active a {
     justify-content: center;
     flex-direction: column;
     background: #c5beb691;
-    padding: 90px 0 80px 0;
+    padding: 50px 0 80px 0;
 
 
 }
@@ -203,6 +203,7 @@ ul li.active a {
     padding: 0 10%;
     text-align: center;
     font-size: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -225,7 +226,7 @@ ul li.active a {
 }
 
 .card {
-    height: 520px;
+    height: 550px;
     width: 350px;
     margin: 20px 20px;
     border-radius: 10px;
@@ -243,6 +244,7 @@ ul li.active a {
 
 .card:hover {
     box-shadow: 0 4px 10px rgba(17, 29, 48, 0.952);
+    
 
 }
 
@@ -340,6 +342,12 @@ ul li.active a {
     height: 100%;
     border-radius: 20px;
     object-fit: cover;
+}
+
+.gallery-img:hover {
+    transform: scale(.9);
+    opacity: .8;
+    filter: grayscale(100%);
 }
 
 .gallery-item:nth-child(1) {
