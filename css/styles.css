@@ -337,17 +337,25 @@ ul li.active a {
     background: var(--naranja)
 }
 
+.gallery-item {
+    overflow: hidden;
+}
+
 .gallery-img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
     object-fit: cover;
+    transition: all .8s;
+    
 }
 
 .gallery-img:hover {
-    transform: scale(.9);
+    transform: scale(1.3);
     opacity: .8;
     filter: grayscale(100%);
+    overflow: hidden;
+    
 }
 
 .gallery-item:nth-child(1) {
